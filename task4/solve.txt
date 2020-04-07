@@ -1,0 +1,7 @@
+1. decrypt_lib.py to crack the pin
+2. Run the emulator and install the app
+3. /adb push ~/codebreaker2019/task3/clientDB.db /data/data/com.badguy.terrortime/databases/clientDB.db -- to get the clientDB onto the emulator device
+4. Run the app and login using the creds.txt
+5. Mention of "picking up the cake" at 2121 (9:21pm)
+6. "after veterans day" in one convo and "four days after the holiday" -> November 15
+7. https://www.epochconverter.com/ to get the epochtime of November 15th at 9:21pm -- 1573852860

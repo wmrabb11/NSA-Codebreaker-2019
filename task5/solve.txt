@@ -1,0 +1,9 @@
+- uncompyle6 to get auth_verify.pyc
+- Log in with account discovered in previous step
+- ./adb pull /data/data/com.badguy.terrortime/databases/clientDB.db to get clientDB
+- change username to be whoever u want
+- put it back: ./adb push ~/codebreaker2019/task5/clientDB.db /data/data/com.badguy.terrortime/databases/clientDB.db
+- create a map of conversations to identify the leader
+- masq.py to generate a valid auth token
+- "mvn exec:java -Dexec.mainClass="com.mvn_java_client.mvn_java_client.App" to execute code to connect to chat server and pull messages
+- the first message printed is the correct one
